@@ -1,19 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="screen.css">
-  </head>
-  <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    <script src="index.js"></script>
-  </body>
-</html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Layout Reproduction</title>
+  <link rel="stylesheet" href="screen.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span class="logo">Y</span>
+      <span class="title">Hacker News</span>
+      <span class="nav">new | past | comments | ask | show | jobs | submit</span>
+      <span class="login">login</span>
+    </div>
+
+    <table class="posts">
+      <tbody>
+        <tr><td class="index">1.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">Airfoil</a> <span class="domain">(ciechanow.ski)</span><br><span class="subtext">1148 points by todasrecoti 4 hours ago | 115 comments</span></td></tr>
+        <tr><td class="index">2.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">Amazon lobbyists to be banned from European parliament</a> <span class="domain">(uni-europa.org)</span><br><span class="subtext">42 points by angibrowl 16 minutes ago | 8 comments</span></td></tr>
+        <tr><td class="index">3.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">SuperTux</a> <span class="domain">(github.com/supertux)</span><br><span class="subtext">61 points by floriangrosse 1 hour ago | 13 comments</span></td></tr>
+        <tr><td class="index">4.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">A Pure Programming Language</a> <span class="domain">(agraef.github.io)</span><br><span class="subtext">56 points by tosh 2 hours ago | 4 comments</span></td></tr>
+        <tr><td class="index">5.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">Testing the F-35C Tailhook</a> <span class="domain">(the-engi-nerd.github.io)</span><br><span class="subtext">239 points by sklargh 5 hours ago | 101 comments</span></td></tr>
+        <tr><td class="index">6.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">Ant Geopolitics</a> <span class="domain">(aeon.co)</span><br><span class="subtext">196 points by romaintailhurat 7 hours ago | 61 comments</span></td></tr>
+        <tr><td class="index">7.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">Tesorio (YC S15) Is Hiring a Head of Infrastructure (100% Remote)</a> <span class="domain">(tesorio.com)</span><br><span class="subtext">21 minutes ago</span></td></tr>
+        <tr><td class="index">8.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">The /unblock API from Browserless: dodging bot detection as a service</a> <span class="domain">(browserless.io)</span><br><span class="subtext">75 points by keapmavonix 3 hours ago | 65 comments</span></td></tr>
+        <tr><td class="index">9.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">I turned my open-source project into a full-time business</a> <span class="domain">(emailengine.app)</span><br><span class="subtext">472 points by andris9 11 hours ago | 185 comments</span></td></tr>
+        <tr><td class="index">10.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">SpaceX discloses cause of Starship anomalies as it clears an FAA hurdle</a> <span class="domain">(arstechnica.com)</span><br><span class="subtext">164 points by branfb 8 hours ago | 188 comments</span></td></tr>
+        <tr><td class="index">11.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">Blazer: Business intelligence made simple</a> <span class="domain">(github.com/ankane)</span><br><span class="subtext">124 points by tosh 7 hours ago | 27 comments</span></td></tr>
+        <tr><td class="index">12.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">Apple cancels work on electric car, shifts team to generative AI</a> <span class="domain">(bloomberg.com)</span><br><span class="subtext">405 points by colonelbtc 2 hours ago | 416 comments</span></td></tr>
+        <tr><td class="index">13.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">Synthetic data generation for tabular data</a> <span class="domain">(github.com/sdv-dev)</span><br><span class="subtext">20 points by skdamat 2 hours ago | 1 comment</span></td></tr>
+        <tr><td class="index">14.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">Show HN: Mountaineer – Webapps in Python and React</a> <span class="domain">(github.com/piercefreeman)</span><br><span class="subtext">82 points by leryx 6 hours ago | 33 comments</span></td></tr>
+        <tr><td class="index">15.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">Show HN: I built an open-source data copy tool called ingestr</a> <span class="domain">(github.com/bruin-data)</span><br><span class="subtext">78 points by karakarn8 6 hours ago | 27 comments</span></td></tr>
+        <tr><td class="index">16.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">Dracula's Biggest Mistake</a> <span class="domain">(ayjay.org)</span><br><span class="subtext">20 points by chesterfield 2 hours ago | 24 comments</span></td></tr>
+        <tr><td class="index">17.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">Consider the Pawpaw</a> <span class="domain">(beltmag.com)</span><br><span class="subtext">55 points by PaulHoule 7 hours ago | 48 comments</span></td></tr>
+        <tr><td class="index">18.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">Why time seems to pass faster as we age</a> <span class="domain">(invertedpassion.com)</span><br><span class="subtext">213 points by paras Chopra 11 hours ago | 138 comments</span></td></tr>
+        <tr><td class="index">19.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">The Second Golden Age of Emacs</a> <span class="domain">(batsov.com)</span><br><span class="subtext">78 points by osusermirwanji 9 hours ago | 39 comments</span></td></tr>
+        <tr><td class="index">20.</td><td class="title-cell"><span class="arrow">▲</span><a href="#">Social Media First Amendment Cases</a> <span class="domain">(lawfaremedia.org)</span><br><span class="subtext">110 points by mhmeyer 7 hours ago | 140 comments</span></td></tr>
+    </tbody>
+  </table>
+</div>
+</body>
+
